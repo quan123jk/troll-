@@ -1,0 +1,25 @@
+body {
+  background-color: aqua;
+  margin: 0 auto;
+  width: 700px;
+}
+a {
+  /* 
+    1. padding-top, padding-bottom
+    2. margin-top. margin-bottom
+    3. min-width, min-height
+     */
+  text-decoration: none;
+  background-color: rgb(211, 154, 207);
+  border-radius: 999px;
+  color: black;
+  width: 150px;
+  padding: 8px 16px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
+}
+a:hover {
+  background-color: black;
+  color: rgb(211, 154, 207);
+}
